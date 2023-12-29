@@ -12,7 +12,7 @@ library(caret)
 library(caretEnsemble)
 library(plotly)
 
-models <- readRDS("../model.rds")
+models <- readRDS("model.rds")
 
 data(iris)
 
